@@ -53,44 +53,39 @@
 		<script type="text/javascript" src="js/device.min.js"></script>
 	</head>
 
-	<body class="page-404">
-		<!-- start header -->
-		<header id="top-bar" class="top-bar--light">
-			<div id="top-bar__inner">
-				<a id="top-bar__logo" class="site-logo" href="index.html">
-					<img class="img-responsive" width="175" height="42" src="img/site_logo.png" alt="demo" />
-					<img class="img-responsive" width="175" height="42" src="img/site_logo_2.png" alt="demo" />
-				</a>
+	<body>
+		<!-- start main -->
+		<main role="main">
+			<!-- start section -->
+			<section class="section section--no-pt section--no-pb section--light-bg">
+				<div class="grid grid--container">
+					<div class="authorization authorization--login">
+						<a class="site-logo" href="index.html">
+							<img class="img-responsive" width="175" height="42" src="img/site_logo_2.png" alt="demo">
+						</a>
 
-				<a id="top-bar__navigation-toggler" href="javascript:void(0);"><span></span></a>
+						<form class="authorization__form" action="index.html">
+							<h3 class="__title">Prawie gotowe: aktywuj subskrypcję</h3>
 
-				<div id="top-bar__navigation-wrap">
-					<div>
-						<br class="hide--lg">
-
+							<ol type="1">
+							<li><b>Sprawdź swoją skrzynkę odbiorczą:</b><br>Wysłaliśmy Ci e-mail weryfikacyjny z linkiem potwierdzającym.<br>
+							W przypadku, gdy e-mail nie znajduje się w folderze skrzynki odbiorczej, sprawdź folder Spam. Jeśli wiadomość e-mail wylądowała w folderze Spam, przenieś ją do skrzynki odbiorczej i dodaj nas do swoich kontaktów, aby zapobiec utracie wiadomości e-mail w przyszłości.
+							</li>
+							<li><b>Otwórz e-mail weryfikacyjny:</b><br>Otwórz e-mail powitalny, który do Ciebie wysłaliśmy.
+								</li>
+							<li><b>Kliknij link potwierdzający:</b><br>Kliknij link weryfikacyjny w wiadomości e-mail i gotowe.
+							</li>
+							</ol>
+							<p>
+								<button class="custom-btn custom-btn--medium custom-btn--style-2 wide" type="submit" role="button">&lt; powrót</button>
+							</p>
+						</form>
 					</div>
 				</div>
-			</div>
-		</header>
-		<!-- end header -->
-
-		<!-- start intro -->
-		<div id="intro" style="background-image: url(img/intro_img/1.jpg);">
-			<div class="grid grid--container">
-				<div class="row row--xs-middle">
-					<div class="col col--sm-10 col--md-7 col--lg-5 text--center">
-						<span class="span">Ooops!</span>
-
-						<h2 class="__title">Nie znaleziono tego</h2>
-
-						<p class="col-MB-40">Dokument, którego szukasz został przeniesiony, usunięty, zmienił nazwę lub nigdy nie istniał.</p>
-
-						<p><a class="custom-btn custom-btn--medium custom-btn--style-2" href="index.html">Strona główna</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- end intro -->
+			</section>
+			<!-- end section -->
+		</main>
+		<!-- end main -->
 
 		<div id="btn-to-top-wrap">
 			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>

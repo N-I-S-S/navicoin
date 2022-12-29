@@ -1,1 +1,1 @@
-# navicoin
+# NaviProject 2.0
